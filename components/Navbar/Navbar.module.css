@@ -1,0 +1,14 @@
+.nav {
+	background-color: blanchedalmond;
+  grid-area: n;
+  font-size: 20px;
+  line-height: 1.5;
+  padding-left: 7px;
+}
+.nav a {
+  color: #191a18;
+  
+}
+.item{
+	color: rgb(1, 9, 1);
+}

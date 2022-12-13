@@ -1,0 +1,32 @@
+.imgone {
+  margin: 20px 140px;
+  display: flex;
+  justify-content: space-between;
+}
+.imgtwo {
+  width: 100px;
+  height: 100px;
+  border-radius: 25px;
+  transition: 0.3s;
+}
+.imgtwo:hover {
+  transform: scale(1.2);
+}
+.imgthree {
+  height: 170px;
+  width: 170px;
+  border-radius: 15px;
+}
+
+.content {
+  padding-left: 5px;
+  grid-area: c;
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  height: 100vh;
+}
+
+.item.focus{
+	color: gold;
+}
