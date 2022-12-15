@@ -2,7 +2,7 @@ import s from "./Profile.module.css";
 import MyPosts from "./MyPost/MyPosts";
 const Profile = () => {
   return (
-    <div className={s.content}>
+    <div >
       <div className={s.imgone}>
         <a href="">
           <img

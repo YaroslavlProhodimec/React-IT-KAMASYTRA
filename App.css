@@ -1,7 +1,5 @@
-
-
 .app-wrapper {
-margin: 0 auto;
+  margin: 0 auto;
   display: grid;
   grid-template-areas:
     "h h"
@@ -11,11 +9,11 @@ margin: 0 auto;
   grid-template-columns: 2fr 10fr;
 }
 
-
-  
-
-
-
-
-
-
+.app-wrapper-content {
+  padding-left: 5px;
+  grid-area: c;
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  height: 100vh;
+}
